@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adriannaa Anand | Cloud & DevOps Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#1c92d2);
+  background-size:400% 400%;
+  animation:gradientBG 12s ease infinite;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+@keyframes gradientBG{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+/* NAVBAR */
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  background:rgba(0,0,0,0.4);
+  backdrop-filter:blur(10px);
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+nav h2{
+  color:#00f2fe;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  gap:25px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#00f2fe;
+}
+
+/* HERO */
+
+header{
+  text-align:center;
+  padding:80px 20px;
+  animation:fadeDown 1.5s ease-in-out;
+}
+
+.profile-pic{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-bottom:20px;
+  border:4px solid #00f2fe;
+  animation:float 4s ease-in-out infinite;
+  box-shadow:0 0 30px rgba(0,242,254,0.6);
+}
+
+@keyframes float{
+  0%{transform:translateY(0px);}
+  50%{transform:translateY(-15px);}
+  100%{transform:translateY(0px);}
+}
+
+header h1{
+  font-size:44px;
+  letter-spacing:2px;
+}
+
+header p{
+  margin-top:10px;
+  color:#ddd;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:10px 20px;
+  border-radius:25px;
+  background:linear-gradient(45deg,#00f2fe,#4facfe);
+  color:black;
+  font-weight:600;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 20px #00f2fe;
+}
+
+/* SECTIONS */
+
+section{
+  padding:60px 10%;
+  opacity:0;
+  transform:translateY(40px);
+  transition:1s;
+}
+
+section.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+h2{
+  margin-bottom:25px;
+  border-left:5px solid #00f2fe;
+  padding-left:12px;
+  font-weight:600;
+}
+
+.card{
+  background:rgba(255,255,255,0.08);
+  padding:20px;
+  margin:20px 0;
+  border-radius:15px;
+  transition:0.4s;
+  backdrop-filter:blur(10px);
+}
+
+.card:hover{
+  transform:translateY(-10px) scale(1.02);
+  background:rgba(255,255,255,0.15);
+  box-shadow:0 15px 30px rgba(0,0,0,0.4);
+}
+
+a{
+  color:#00f2fe;
+}
+
+footer{
+  text-align:center;
+  padding:25px;
+  background:rgba(0,0,0,0.5);
+  margin-top:40px;
+}
+
+/* animations */
+
+@keyframes fadeDown{
+  from{opacity:0;transform:translateY(-40px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h2>AA</h2>
+  <ul>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <img src="https://adria-terraform-website-2026.s3.us-east-1.amazonaws.com/profile.jpeg" alt="Profile Image" class="profile-pic">
+  <h1>ADRIANNAA ANAND</h1>
+  <p>Cloud & DevOps Enthusiast | MERN Stack Developer</p>
+  <a href="https://github.com/adriannaa-anand" class="btn" target="_blank">View GitHub</a>
+</header>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+B.Tech (CSBS) – Sri Eshwar College of Engineering  
+CGPA: 8.27 | Expected 2027
+</div>
+<div class="card">
+HSC – 88% | SSLC – 93%
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="card">
+<strong>Terraform AWS S3 Static Website</strong><br>
+Automated deployment of a static website on AWS S3 using Terraform.  
+Configured bucket policies, public access, static hosting & object uploads.<br><br>
+<a href="https://github.com/adriannaa-anand/terraform-aws-s3-static-website" target="_blank">🔗 View Project</a>
+</div>
+
+<div class="card">
+<strong>Katakana Flashcards & Quiz Platform</strong><br>
+Interactive MERN stack application for learning Japanese characters.<br><br>
+<a href="https://github.com/adriannaa-anand/Flashcard_Project" target="_blank">🔗 View Project</a>
+</div>
+
+<div class="card">
+<strong>Career Counselling Platform</strong><br>
+Web application guiding students towards IT domains using quizzes.<br><br>
+<a href="https://github.com/adriannaa-anand/Career-Counselling-project" target="_blank">🔗 View Project</a>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="card skills-grid">
+<div>
+<ul>
+<li>AWS Cloud</li>
+<li>Terraform (IaC)</li>
+<li>Kubernetes</li>
+<li>Docker</li>
+</ul>
+</div>
+<div>
+<ul>
+<li>GitHub</li>
+<li>CI/CD – AWS CodePipeline</li>
+<li>Bash Scripting</li>
+<li>C++, Python, Java</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Achievements</h2>
+<div class="card">
+<ul>
+<li>Certified in Japanese Language Proficiency Test – N5</li>
+<li>Vice President – Fine Arts Music (SLSC 2025)</li>
+<li>Secretary – Fine Arts Music (SLSC 2024)</li>
+<li>Completed 100+ LeetCode problems</li>
+</ul>
+</div>
+</section>
+
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+📧 adriannaanand.2023csbs@sece.ac.in <br>
+🔗 <a href="https://www.linkedin.com/in/adriannaa-anand-6a9521276/">LinkedIn</a>
+</div>
+</section>
+
+<footer>
+© 2026 Adriannaa Anand | Built & Deployed using Terraform + AWS S3 🚀
+</footer>
+
+<script>
+const sections = document.querySelectorAll("section");
+
+window.addEventListener("scroll",()=>{
+  sections.forEach(sec=>{
+    const top = sec.getBoundingClientRect().top;
+    if(top < window.innerHeight - 100){
+      sec.classList.add("show");
+    }
+  });
+});
+</script>
+
+</body>
+</html>
