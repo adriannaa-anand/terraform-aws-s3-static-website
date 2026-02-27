@@ -6,23 +6,23 @@ This project provisions, configures, and deploys a fully functional static websi
 📌 Project Overview
 
 This project demonstrates:
-
+```
 ✅ Infrastructure as Code using Terraform
 ✅ AWS S3 static website hosting
 ✅ Public access bucket configuration
 ✅ Automated file uploads (HTML & assets)
 ✅ Clean Git best practices for DevOps workflows
-
+```
 The entire infrastructure is reproducible using Terraform commands.
 
 🛠 Tech Stack
-
+```
 *Terraform
 *AWS S3
 *AWS Provider
 *HTML / CSS
 *Infrastructure as Code (IaC)
-
+```
 
 📂 Project Structure
 
