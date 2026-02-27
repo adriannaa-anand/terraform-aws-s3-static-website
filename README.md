@@ -122,6 +122,12 @@ After running terraform apply, access the live website via the S3 website endpoi
 
    GitHub: https://github.com/adriannaa-anand
 
+<img width="1917" height="910" alt="terra 1" src="https://github.com/user-attachments/assets/12713a31-4267-451d-8de6-5fed3eef7f2a" />
+
+<img width="1918" height="903" alt="terra 2" src="https://github.com/user-attachments/assets/dab9e485-81f4-4327-8738-b5742b662ed8" />
+
+<img width="1900" height="910" alt="terra 3" src="https://github.com/user-attachments/assets/cba0c276-24cc-4344-a4ed-eb69f23d756a" />
+   
 <img width="1906" height="971" alt="image" src="https://github.com/user-attachments/assets/dfefc58b-ea52-4862-a00e-b8f689e3c97a" />
 
 <img width="1841" height="916" alt="image" src="https://github.com/user-attachments/assets/3ab42fae-6ad6-4ad6-9e47-ced040336040" />
