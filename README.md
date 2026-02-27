@@ -26,6 +26,7 @@ The entire infrastructure is reproducible using Terraform commands.
 
 📂 Project Structure
 
+```
 terraform-aws-s3-static-website/
 │
 ├── main.tf
@@ -36,6 +37,8 @@ terraform-aws-s3-static-website/
 ├── index.html
 ├── error.html
 └── profile.jpeg
+
+```
 
 ⚙️ How to Run This Project
 1️⃣ Clone the Repository
@@ -118,3 +121,17 @@ After running terraform apply, access the live website via the S3 website endpoi
    Cloud & DevOps Enthusiast | MERN Stack Developer
 
    GitHub: https://github.com/adriannaa-anand
+
+<img width="1906" height="971" alt="image" src="https://github.com/user-attachments/assets/dfefc58b-ea52-4862-a00e-b8f689e3c97a" />
+
+<img width="1841" height="916" alt="image" src="https://github.com/user-attachments/assets/3ab42fae-6ad6-4ad6-9e47-ced040336040" />
+
+<img width="1819" height="909" alt="image" src="https://github.com/user-attachments/assets/31506307-1a1d-4400-9c7a-8f7f1d978d91" />
+
+<img width="1850" height="897" alt="image" src="https://github.com/user-attachments/assets/5365b8db-9c29-4480-b840-ca58703d4875" />
+
+
+
+
+
+
